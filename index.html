@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portfolio</title>
-	<link rel="stylesheet" href="/style.css">
+	<link rel="stylesheet" href="./style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
@@ -20,7 +20,7 @@
 
 <!-- navbar -->
 <nav class="navbar">
-	<img src="/images/logo.svg" alt="Logo">
+	<img src="images/logo.svg" alt="Logo">
     <ul class="link-group">
         <li class="link active"><a href="#home">Home</a></li>
         <li class="link active"><a href="#about">About</a></li>
@@ -100,5 +100,34 @@
 </section>
 
 <!--Projects Section-->
+<section class="contact-section" id="contact">
+	<h1>Tell us more</h1>
+      <form>
+        <label for="fname">First Name</label>
+        <input id="fname" type="text" placeholder="First Name" />
+        <label for="lname">Last Name</label>
+        <input id="lname" type="text" placeholder="Last Name" />
+        <label for="yemail">Your email</label>
+        <input
+          id="yemail"
+          type="email"
+          placeholder="Tell us how to contact you"/>
+        <label for="texta">Tell us about yourself</label>
+        <textarea name="text" id="texta" cols="30" rows="10"></textarea>
+        <div class="sw">
+          <label for="wtkm">Want to know more?</label>
+          <label class="switch">
+            <input id="slider" type="checkbox" />
+            <span class="slider"></span></label>
+          <input
+            id="submit"
+            type="text"
+            placeholder="Submit"
+            style="text-align: center"
+            disabled
+          />
+        </div>
+      </form>
+</section>
 </body>
 </html>
