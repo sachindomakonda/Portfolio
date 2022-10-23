@@ -65,6 +65,7 @@ body{
     font-weight: 300;
     padding-top: 200px;
     padding-left: 150px;
+    text-align: left;
 }
 .home-section hr{
     width: 80%;
@@ -113,19 +114,17 @@ body{
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    align-items: center;
-     
-    padding-top: 100px;
+    align-items: center; 
+    padding-top: 50px;
 }
 .header h1 {
-    padding-top: 110px;
-    font-size: 50px;
+    font-size: 70px;
 }
 .inner {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 120px;
+    padding-top: 80px;
 }
 .container {
     display: grid;
@@ -134,10 +133,10 @@ body{
     text-align: center;
     grid-gap: 1rem;
     font-size: 1.2rem;
+    padding-top: 50px;
 }
 .skill-box {
     padding: 1rem;
-    
     cursor: pointer;
 }
 .skill-title {
@@ -179,93 +178,75 @@ body{
     height: 150px;
 }
 .skill-title h3 {
-    color: #fff;
+    color: white;
     margin-top: 2rem;
 }
 .skill-box p{
     padding-top: 50px;
+    color: white;
+    font-size: 30px;
 }
 .contact-section {
-    width: 80%;
-    margin: 10% auto;
+    width: 50%;
+    margin: auto;
     background-color: none;
     border-radius: 5px;
-    padding: 50px;
-  }
-  h1 {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-section h1 {
+    top: 0;
     text-align: center;
     font-size: 5rem;
-  }
-  
-  #fname,
-  #lname,
-  #texta,
-  #yemail {
+}
+  #firstname,
+  #lastname,
+  #textarea,
+  #youremail {
     width: 100%;
-    padding: 5px;
-  }
-  
-  input[type="text"]:focus {
-    outline: 1px solid hotpink;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+    input[type="text"]:focus {
+    outline: 4px solid rgb(231, 180, 10);
     border: transparent;
-  }
-  
-  input[type="email"]:focus {
-    outline: 1px solid blue;
+}
+    input[type="email"]:focus {
+    outline: 4px solid rgb(231, 180, 10);
     border: transparent;
-  }
-  textarea:focus {
-    outline: 1px solid blue;
+}
+    textarea:focus {
+    outline: 4px solid rgb(231, 180, 10);
     border: transparent;
-  }
-  
-  .sw {
-    text-align: center;
-  }
-  
-  #slider {
-    height: 0;
-    width: 0;
-    opacity: 0;
-  }
-  
-  .switch {
-    position: relative;
-    display: inline-block;
-    width: 30px;
-    height: 17px;
-  }
-  
-  .slider {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #ccc;
-    right: 0;
-    bottom: 0;
-    border-radius: 34px;
-    cursor: pointer;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 13px;
-    width: 13px;
-    border-radius: 50%;
-    left: 2px;
-    bottom: 2px;
-    background-color: white;
-    transition: 400ms;
-  }
-  
-  #slider:checked + .slider {
-    background-color: greenyellow;
-  }
-  
-  #slider:checked + .slider:before {
-    transform: translateX(13px);
-  }
-  #submit {
-    height: 26px;
-  }
+}
+#button {
+    opacity: 1;
+    color: black;
+    background-color: rgb(231, 180, 10);
+    padding: 10px;
+}
+form {
+    padding-bottom: 200px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, #1A090D , #303B3F, #1A090D);
+    padding: 50px 200px;
+}
+
+
+.social-icons ul {
+    list-style: none
+}
+
+.copyright input {
+    padding-top: 20px;
+}
+
+#newslettermail {
+    height: 20px;
+}

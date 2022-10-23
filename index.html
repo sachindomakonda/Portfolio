@@ -12,6 +12,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">	
 	<link href="https://fonts.googleapis.com/css2?family=Creepster&family=Fasthand&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <header>
@@ -99,35 +100,52 @@
 		</div>
 </section>
 
-<!--Projects Section-->
+<!--Contact Section-->
 <section class="contact-section" id="contact">
-	<h1>Tell us more</h1>
+		<h1>Contact Me</h1>
       <form>
         <label for="fname">First Name</label>
-        <input id="fname" type="text" placeholder="First Name" />
+        <input id="firstname" type="text" placeholder="First Name" />
         <label for="lname">Last Name</label>
-        <input id="lname" type="text" placeholder="Last Name" />
+        <input id="lastname" type="text" placeholder="Last Name" />
         <label for="yemail">Your email</label>
-        <input
-          id="yemail"
-          type="email"
-          placeholder="Tell us how to contact you"/>
-        <label for="texta">Tell us about yourself</label>
-        <textarea name="text" id="texta" cols="30" rows="10"></textarea>
-        <div class="sw">
-          <label for="wtkm">Want to know more?</label>
-          <label class="switch">
-            <input id="slider" type="checkbox" />
-            <span class="slider"></span></label>
-          <input
-            id="submit"
-            type="text"
-            placeholder="Submit"
-            style="text-align: center"
-            disabled
-          />
+        <input id="youremail" type="email" placeholder="we contact you back"/>
+        <label for="textarea">Your question, please !</label>
+        <textarea name="text" id="textarea" cols="30" rows="10"></textarea>
+        <button id="button" disabled>SUBMIT</button>
         </div>
       </form>
 </section>
+
+<footer>
+	<div class="social-icons">
+		<h3>
+			Let's connect!
+		</h3>
+		<ul>
+			<li>
+				<a href="#" class="fa fa-linkedin"></a>
+			</li>
+			<li>
+				<a href="#" class="fa fa-twitter"></a>
+			</li>
+			<li>
+				<a href="#" class="fa fa-github"></a>
+			</li>
+		</ul>
+		
+	</div>
+	<div class="copyright">
+		<h3>
+			Leave me your email
+		</h3>
+		<form>
+			<input id="newslettermail" type="email" >
+		</form>
+	</div>
+	<div>
+		
+	</div>
+</footer>
 </body>
 </html>
